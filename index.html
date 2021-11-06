@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Article preview component</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <article class="stats-card">
+            <section class="stats-card__img-container">
+                <img src="/images/drawers.jpg" alt="drawers">
+            </section>
+            <section class="stats-card__info">
+                <div class="info__container">
+                    <h1 class="info__heading">
+                        Shift the overall look and feel by adding these wonderful
+                        touches to furniture in your home
+                    </h1>
+                    <p class="info__description">
+                        Ever been in a room and felt like something was missing? Perhaps
+                        it felt slightly bare and uninviting. I’ve got some simple tips
+                        to help you make any room feel complete.
+                    </p>
+
+                    <div class="info__avatar">
+                        <img src="/images/avatar-michelle.jpg" alt="avatar" class="avatar">
+                        <div class="avatar__detail">
+                            <h4 class="detail__name">Michelle Appleton</h4>
+                            <h4 class="detail__date">28 Jun 2020</h4>
+                        </div>
+                        <button type="button" id="open"><i class="fas fa-share fa-lg"></i></button>
+                    </div>
+            </section>
+            <section class="stats-card__share" id="share-icon">
+                <h4>SHARE</h4>
+                <img src="/images/icon-facebook.svg" alt="facebook icon">
+                <img src="/images/icon-twitter.svg" alt="twitter icon">
+                <img src="/images/icon-pinterest.svg" alt="pinterest icon">
+                <button type="button" id="close"><i class="fas fa-share fa-lg"></i></button>
+                <div class="triangle"></div>
+            </section>
+        </article>
+    </div>
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
